@@ -1,0 +1,17 @@
+table{
+    border: 5px solid rgb(49, 14, 14); margin-left: auto; margin-right: auto; font-size: 23px;
+}
+
+td{
+   border: 4px solid rgb(0, 0, 0); font-family: Tahoma; 
+}
+th{
+   border: 4px solid rgb(75, 20, 20); font-family: Tahoma; width: 450px;
+}
+           
+th:nth-of-type(n){
+   background-color:#2297CF;
+}
+td:nth-of-type(n){
+   background-color: #C6D0E0;
+}
