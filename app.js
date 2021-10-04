@@ -1,3 +1,7 @@
+//COMP 229-005 Assignment 1
+//Author: Camila Nieto
+//ID: 301175110
+
 //installed 3rd party packages
 let createError = require('http-errors');
 let express = require('express');

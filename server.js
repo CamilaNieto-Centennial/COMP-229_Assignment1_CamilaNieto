@@ -1,4 +1,7 @@
-#!/usr/bin/env node
+//COMP 229-005 Assignment 1
+//Author: Camila Nieto
+//ID: 301175110
+/*#!/usr/bin/env node*/
 
 /**
  * Module dependencies.
