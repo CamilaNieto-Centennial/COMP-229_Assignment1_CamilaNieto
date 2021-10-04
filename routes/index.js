@@ -1,3 +1,7 @@
+//COMP 229-005 Assignment 1
+//Author: Camila Nieto
+//ID: 301175110
+
 var express = require('express');
 var router = express.Router();
 
@@ -16,7 +20,7 @@ router.get('/about', function(req, res, next) {
   res.render('index', {title: 'About Me', page: 'about'});
 });
 
-/* GET Products page. */
+/* GET Projects page. */
 router.get('/projects', function(req, res, next) {
   res.render('index', {title: 'Projects', page: 'projects'});
 });
