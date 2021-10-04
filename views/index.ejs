@@ -15,52 +15,27 @@
 </head>
 <body>
 
-  <!--Main Navigation-->
+  <!--Header Section-->
+  <%- include('./components/header.ejs'); %>
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="/">COMP229</a> <!--<img src="" alt="Logo">-->
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+  <!--Header Section-->
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0"><!--???-->
+ <!--Main Content-->
 
-        <li class="nav-item active">
-          <a class="nav-link" href="/home"><i class="fa-solid fa-house"></i> Home</a>
-        </li>
-       
-       <li class="nav-item">
-          <a class="nav-link" href="/about"> About Me</a>
-        </li>
+<main>
+  <%- include('./content/' + page + '.ejs'); %>
+</main>
 
-        <li class="nav-item">
-          <a class="nav-link" href="/projects"> Projects</a>
-        </li>
+    <!--Main Content-->
 
-        <li class="nav-item">
-          <a class="nav-link" href="/services"> Services</a>
-        </li>
+    <!--Footer Section-->
+  <%- include('./components/footer.ejs'); %>
+  <!--Footer Section-->
 
-        <li class="nav-item">
-          <a class="nav-link" href="/contact"> Contact</a>
-        </li>
-  </div>
-</nav>
-
-<!--Footer Section-->
-<nav class="navbar fixed-bottom navbar-dark bg-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Copyright &copy;2021 -  Camila Nieto</a>
-  </div>
-</nav>
-<!--Footer Section-->
-
-  <h1>Welcome to the <%= title %> page</h1>
   <!--Script Section-->
   <script src="/jquery/dist/jquery.min.js"></script>
   <script src="/bootstrap/dist/js/bootstrap.min.js"></script>
   <script src="/Scripts/app.js"></script>
+
 </body>
 </html>
