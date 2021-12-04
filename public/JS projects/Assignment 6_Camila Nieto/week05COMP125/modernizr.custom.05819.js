@@ -258,7 +258,7 @@ window.Modernizr = (function( window, document, undefined ) {
 
         var reSkip = /^<|^(?:button|map|select|textarea|object|iframe|option|optgroup)$/i;
 
-        var saveClones = /^(?:a|b|code|div|fieldset|h1|h2|h3|h4|h5|h6|i|label|li|ol|p|q|span|strong|style|table|tbody|td|th|tr|ul)$/i;
+        var saveClones = /^(?:a|b|code|div|fieldset|h1|h2|h3|h4|h4|h6|i|label|li|ol|p|q|span|strong|style|table|tbody|td|th|tr|ul)$/i;
 
         var supportsHtml5Styles;
 
